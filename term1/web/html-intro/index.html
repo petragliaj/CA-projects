@@ -4,6 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        /* element selector */
+        h1, #hobbies {
+            color: red;
+            background-color: yellow;
+        }
+        
+        /* ID selector */
+
+        #hobbies {
+            border: 2px solid green;
+        }
+
+        /* applies to all li elements that are children of #hobbies
+        (any element with that id) */
+        #hobbies li {
+            background-color: lightblue;
+        }
+
+        /* class selector */
+        .big {
+            font-size: 2em;
+        }
+
+        li:hover, #hobbies li:hover{
+            background: lightgreen;
+        }
+
+    </style>
 </head>
 
 <body>
@@ -13,9 +43,21 @@
     <h4>Heading 4</h4>
     <h5>Heading 5</h5>
     <h6>Heading 6</h6>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam fuga esse minus dignissimos adipisci error molestias culpa inventore, omnis repellat minima laboriosam nostrum totam voluptatem accusantium. Harum recusandae reprehenderit odio?</p>
+    <p class="big">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam fuga esse minus dignissimos adipisci error molestias culpa inventore, omnis repellat minima laboriosam nostrum totam voluptatem accusantium. Harum recusandae reprehenderit odio?</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
     <img src="https://placekitten.com/300" alt ="cute kitten photo">
-    <a href="https://google.com/"> Go to Google</a>
+    <a href="https://google.com/" class="big"> Go to Google</a>
+
+    <ul id="hobbies">
+        <li>gaming</li>
+        <li>coding</li>
+        <li>reading</li>
+    </ul>
+
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ul>
 </body>
 </html>
