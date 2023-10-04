@@ -1,0 +1,45 @@
+
+/* This code is referred to a reset. Its good to start any css file with a reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1, body > p {
+    background-color: #dde0e3;
+
+}
+
+h1 {
+    border: double black;
+    padding: 4rem;
+    border-width: 0.5vw 1vw;
+}
+
+body > p  {
+    border: 0.2rem black;
+    padding: 1rem 2rem;
+    margin: 1rem;
+}
+
+em, strong {
+    /* display: block; */
+    background-color: lightblue;
+}
+
+.btn {
+    color: white;
+    background-color: #5995da;
+    font-weight: bold;
+    padding: 1.5rem;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    width: 200px;
+}
+
+.btn img {
+    width: 50%;
+}

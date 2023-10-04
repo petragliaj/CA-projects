@@ -1,26 +1,26 @@
-    /* element selector */
-    h1, #hobbies {
-        color: red;
-        background-color: yellow;
-    }
-    
-    /* ID selector */
+/* element selector */
+h1, #hobbies {
+    color: red;
+    background-color: yellow;
+}
 
-    #hobbies {
-        border: 2px solid green;
-    }
+/* ID selector */
 
-    /* applies to all li elements that are children of #hobbies
-    (any element with that id) */
-    #hobbies li {
-        background-color: lightblue;
-    }
+#hobbies {
+    border: 2px solid green;
+}
 
-    /* class selector */
-    .big {
-        font-size: 2em;
-    }
+/* applies to all li elements that are children of #hobbies
+(any element with that id) */
+#hobbies li {
+    background-color: lightblue;
+}
 
-    li:hover, #h {
-        background: lightgreen;
-    }
+/* class selector */
+.big {
+    font-size: 2em;
+}
+
+li:hover, #h {
+    background: lightgreen;
+}

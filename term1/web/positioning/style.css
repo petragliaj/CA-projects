@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 1rem;
+    background: red;
+}
+
+div:nth-of-type(2) {
+    position: absolute;
+    background: blue;
+    left: 10px;
+    top: 100px;
+    z-index: 1;
+}
+
+div:nth-of-type(3) {
+    background: green;
+}
